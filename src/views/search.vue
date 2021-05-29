@@ -1,13 +1,15 @@
 <template>
-  <div>home</div>
+  <div>
+    Search
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Search'
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 
 </style>
