@@ -3,8 +3,14 @@ const Recommend = () => import('@/views/recommend')
 const Search = () => import('@/views/search')
 const Singer = () => import('@/views/singer')
 const TopList = () => import('@/views/top-list')
+const userCenter = () => import('@/views/user-center')
 
 const routes = [
+  {
+    path: '/user',
+    name: 'userCenter',
+    component: userCenter
+  },
   {
     path: '/',
     name: 'Home',
